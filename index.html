@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 5</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<header>
+    <div class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="col-12 col-lg-2 col-md-4 col-sm-4 ">
+    <img src="logo-text.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       
+   
+    
+</div>
+    <div class="col-12 col-lg-5 col-md-4 col-sm-4 ml-3 ml-5">
+        <div class="collapse navbar-collapse" id="mynav">
+
+            <ul class="navbar-nav ml-auto me-auto mb-lg-0">
+                <li class="nav-item active" ><a class="nav-link" href="">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                <div class="dropdown nav-item">
+                    <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Feature
+                    </button>
+                    <ul class="dropdown-menu bg-dark">
+                      <li><a class="dropdown-item text-light " href="#">Feature 1</a></li>
+                      <li><a class="dropdown-item text-light " href="#">Feature 2</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Feature 3</a></li>
+                    </ul>
+                  </div>
+                  <button class="btn" type="button" data-bs-toggle="collapse"  data-bs-target="#offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                        
+            </ul>
+            <div class="col-12 col-lg-5 col-md-4 col-sm-4" style="margin-left: 400px;">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                  </form>
+            </div>
+        
+        </div>
+    </div>
+</div>
+</header>
+
+
+    <div class="offcanvas offcanvas-start offcanvas-custom-width" data-bs-scroll="true" tabindex="-1" id="offcanvasExample"  aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header bg-dark">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">  <img src="logo-text.png" alt=""></h5>
+         
+        </div>
+        <div class="offcanvas-body" >
+        <ul id="nav-item">
+            <div class="nav-link-sidebar"><img src="dashboard.png"><a class="sidebar-link active" href="">Dashboard</a></div>
+            
+            <div class="nav-link-sidebar"><img src="chart].png" width="25" height="25"><a class="sidebar-link" href="">Charts</a></div>
+   
+            <div class="nav-link-sidebar"><img src="widgets.png"  width="25" height="25"><a class="sidebar-link" href="">widgets</a></div>
+            
+            <div class="nav-link-sidebar"><img src="tables.png"  width="25" height="25"><a class="sidebar-link" href="">tables</a></div>
+            
+            <div class="nav-link-sidebar"><img src="full width.png"  width="25" height="25"><a class="sidebar-link" href="">Full Width</a></div>
+         
+            <div class="dropdown nav-item">
+                <div class="nav-link-sidebar"><img src="forms.png"  width="25" height="25"><a class="sidebar-link" href="">Forms</a><button class="btn dropdown-toggle" style="background-color: rgb(25, 25, 53) ;
+                color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+            
+                <ul class="dropdown-menu" style="background-color: rgb(25, 25, 53) ;">
+                    <div class="nav-link-sidebar"><img src="formbasics.png"  width="25" height="25"><a class="sidebar-link" href="">Form basics</a></div>
+                    <div class="nav-link-sidebar"><img src="formwizard.png"  width="25" height="25"><a class="sidebar-link" href="">Form wizard </a></div>
+                    
+                  </ul>
+                </div>
+            </div>
+
+            <div class="nav-link-sidebar"><img src="full width.png"  width="25" height="25"><a class="sidebar-link" href="">Full Width</a></div>
+         
+            <div class="dropdown nav-item">
+                <div class="nav-link-sidebar"><img src="icon.png"  width="25" height="25"><a class="sidebar-link" href="">Icon</a><button class="btn dropdown-toggle" style="background-color: rgb(25, 25, 53) ;
+                color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu" style="background-color: rgb(25, 25, 53) ;">
+                    <div class="nav-link-sidebar"><img src="material icon.png"  width="25" height="25"><a class="sidebar-link" href="">Material Icon</a></div>
+                    <div class="nav-link-sidebar"><img src="fontawsome.png"  width="25" height="25"><a class="sidebar-link" href="">Font Awesome Icon</a></div>
+                    </ul>
+                </div>
+            </div>
+           
+            <div class="nav-link-sidebar"><img src="pencil.png"  width="25" height="25"><a class="sidebar-link" href="">Elements</a></div>
+
+
+            <div class="dropdown nav-item">
+                <div class="nav-link-sidebar"><img src="addon.gif"  width="25" height="25"><a class="sidebar-link" href="">Add on</a><button class="btn dropdown-toggle" style="background-color: rgb(25, 25, 53) ;
+                color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu" style="background-color: rgb(25, 25, 53) ;">
+                    <div class="nav-link-sidebar"><img src="dashboard.png"><a class="sidebar-link active" href="">Dashboard 2</a></div>
+                    <div class="nav-link-sidebar"><img src="gallery.png"  width="25" height="25"><a class="sidebar-link" href="">gallery</a></div>
+                    <div class="nav-link-sidebar"><img src="calender.png"  width="25" height="25"><a class="sidebar-link" href="">calender</a></div>
+                    <div class="nav-link-sidebar"><img src="invoice.png"  width="25" height="25"><a class="sidebar-link" href="">Invoice</a></div>    
+                </ul>
+                </div>
+            </div>
+
+            <div class="dropdown nav-item">
+                <div class="nav-link-sidebar"><img src="authendication.png"  width="25" height="25"><a class="sidebar-link" href="">Authendication</a><button class="btn dropdown-toggle" style="background-color: rgb(25, 25, 53) ;
+                color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                 <ul class="dropdown-menu" style="background-color: rgb(25, 25, 53) ;">
+                    <div class="nav-link-sidebar"><img src="infinte.png"  width="25" height="25"><a class="sidebar-link" href="">Login</a></div>
+                    <div class="nav-link-sidebar"><img src="infinte.png"  width="25" height="25"><a class="sidebar-link" href="">Register</a></div>
+                  </ul>
+                </div>
+            </div>
+
+
+            <div class="dropdown nav-item">
+                <div class="nav-link-sidebar"><img src="error1.png"  width="25" height="25"><a class="sidebar-link" href="">Error</a><button class="btn dropdown-toggle" style="background-color: rgb(25, 25, 53) ;
+                color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                 <ul class="dropdown-menu" style="background-color: rgb(25, 25, 53) ;">
+                    <div class="nav-link-sidebar"><img src="error.png"  width="25" height="25"><a class="sidebar-link" href="">Error 403</a></div>
+                    <div class="nav-link-sidebar"><img src="error.png"  width="25" height="25"><a class="sidebar-link" href="">Error 404</a></div>
+                    <div class="nav-link-sidebar"><img src="error.png"  width="25" height="25"><a class="sidebar-link" href="">Error 405</a></div>
+                    <div class="nav-link-sidebar"><img src="error.png"  width="25" height="25"><a class="sidebar-link" href="">Error 500</a></div>
+                    
+                  </ul>
+                </div>
+            </div>
+ </div>
+</div>
+<div class="page-wrapper">
+
+     <div class="page-breadcrumb">
+        <div class="row">
+            <div class="col-12 d-flex no-block align-items-center">
+                <h4 class="page-title text-dark " style="margin-left: 310px; margin-top: 20px;">Dashboard</h4>
+                <div class="ml-auto text-right">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ 
+ <div class="container-fluid" style="margin-left: 300px; margin-top: 20px; background-color: rgb(215, 221, 226); height: auto;">
+    <div class="row">
+        <div class="col-md-6 col-lg-2 col-xlg-3">
+            <div class="card card-hover">
+                <div class="box  text-center" style="background-color: rgb(20, 173, 250);">
+                    <h1 class="font-light text-white"><img src="dashboard2.png" width="30" height="30" alt=""></i></h1>
+                    <h6 class="text-white">Dashboard</h6> 
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="card card-hover">
+                <div class="box bg-success text-center">
+                    <h1 class="font-light text-white"><img src="chart2.png" width="30" height="30"  alt=""></h1>
+                    <h6 class="text-white">Charts</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-2 col-xlg-3">
+            <div class="card card-hover">
+                <div class="box bg-warning text-center">
+                    <h1 class="font-light text-white"><img src="widgets2.png" width="30" height="30" alt=""></h1>
+                    <h6 class="text-white">Widgets</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-2 col-xlg-2">
+            <div class="card card-hover">
+                <div class="box bg-danger text-center">
+                    <h1 class="font-light text-white"><img src="tables2.png" width="30" height="30" alt=""></h1>
+                    <h6 class="text-white">Tables</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-lg-3 col-xlg-3 mt-3">
+            <div class="card card-hover">
+                <div class="box bg-danger text-center">
+                    <h1 class="font-light text-white"><img src="forms2.png" width="30" height="30" alt=""></h1>
+                    <h6 class="text-white">Forms</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-2 col-xlg-3 mt-3">
+            <div class="card card-hover">
+                <div class="box bg-info text-center">
+                    <h1 class="font-light text-white"><img src="button2.png" width="30" height="30" alt=""></h1>
+                    <h6 class="text-white">Buttons</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-2 col-xlg-3 mt-3">
+            <div class="card card-hover">
+                <div class="box bg- text-center"  style="background-color: rgb(20, 173, 250);" >
+                    <h1 class="font-light text-white"><img src="elements.png" width="30" height="30" alt=""></h1>
+                    <h6 class="text-white">Elements</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-2 col-xlg-3 mt-3">
+            <div class="card card-hover">
+                <div class="box bg-success text-center">
+                    <h1 class="font-light text-white"><img src="elements.png" width="30" height="30" alt=""></h1>
+                    <h6 class="text-white">Elements</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="graph2 .png" id="graph2" alt="">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+
+        <div class="col-lg-5">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Latest Posts</h4>
+                </div>
+                <div class="comment-widgets scrollable">
+                   
+                    <div class="d-flex flex-row comment-row m-t-0">
+                        <div class="p-2"><img src="1.jpg" alt="" width="50" class="rounded-circle"></div>
+                        <div class="comment-text w-100">
+                            <h6 class="font-medium">James Anderson</h6>
+                            <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+                            <div class="comment-footer">
+                                <span class="text-muted float-right">April 14, 2016</span> 
+                                <button type="button" class="btn btn-cyan btn-sm">Edit</button>
+                                <button type="button" class="btn btn-success btn-sm">Publish</button>
+                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+ </div>
+ <div class="d-flex flex-row comment-row mt-5">
+    <div class="p-2"><img src="4.jpg" alt="user" width="50" class="rounded-circle"></div>
+    <div class="comment-text active w-100">
+        <h6 class="font-medium">Michael Jorden</h6>
+        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+        <div class="comment-footer">
+            <span class="text-muted float-right">May 10, 2016</span> 
+            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
+            <button type="button" class="btn btn-success btn-sm">Publish</button>
+            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </div>
+    </div>
+</div>
+<div class="d-flex flex-row comment-row mt-5">
+    <div class="p-2"><img src="assets/images/users/5.jpg" alt="user" width="50" class="rounded-circle"></div>
+    <div class="comment-text w-100">
+        <h6 class="font-medium">Johnathan Doeting</h6>
+        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+        <div class="comment-footer">
+            <span class="text-muted float-right">August 1, 2016</span> 
+            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
+            <button type="button" class="btn btn-success btn-sm">Publish</button>
+            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="col-lg-5">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Previous Posts</h4>
+        </div>
+        <div class="comment-widgets scrollable">
+           
+            <div class="d-flex flex-row comment-row m-t-0">
+                <div class="p-2"><img src="1.jpg" alt="" width="50" class="rounded-circle"></div>
+                <div class="comment-text w-100">
+                    <h6 class="font-medium">James Anderson</h6>
+                    <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+                    <div class="comment-footer">
+                        <span class="text-muted float-right">April 14, 2016</span> 
+                        <button type="button" class="btn btn-cyan btn-sm">Edit</button>
+                        <button type="button" class="btn btn-success btn-sm">Publish</button>
+                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                    </div>
+                </div>
+            </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+
+    <div class="col-lg-5">
+
+        <div class="accordion mt-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item 1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item 2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item 3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title ">Progress Box</h4>
+                    <div class="mt-5">
+                        <div class="d-flex no-block align-items-center">
+                            <span>81% Clicks</span>
+                            <div class="ml-auto">
+                                <span>125</span>
+                            </div>
+                        </div>
+                        <div class="progress mb-5">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 81%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex no-block align-items-center">
+                            <span>72% Uniquie Clicks</span>
+                            <div class="ml-auto">
+                                <span>120</span>
+                            </div>
+                        </div>
+                        <div class="progress mb-5">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 72%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex no-block align-items-center ">
+                            <span>53% Impressions</span>
+                            <div class="ml-auto">
+                                <span>785</span>
+                            </div>
+                        </div>
+                        <div class="progress mb-5">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 53%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex no-block align-items-center ">
+                            <span>3% Online Users</span>
+                            <div class="ml-auto">
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 3%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row mt-5">
+    <div class="col-lg-5">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title m-b-0">News Updates</h4>
+            </div>
+            <ul class="list-style-none">
+                <li class="d-flex no-block card-body">
+                    
+                    <div>
+                        <a href="#" class="m-b-0 font-medium p-0" style="text-decoration: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                        <span class="text-muted">dolor sit amet, consectetur adipiscing</span>
+                    </div>
+                    <div class="ml-auto">
+                        <div class="tetx-right">
+                            <h5 class="text-muted m-b-0">20</h5>
+                            <span class="text-muted font-16">Jan</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="d-flex no-block card-body border-top">
+                 
+                    <div>
+                        <a href="#" class="m-b-0 font-medium p-0" style="text-decoration: none;">Congratulation Maruti, Happy Birthday</a>
+                        <span class="text-muted">many many happy returns of the day</span>
+                    </div>
+                    <div class="ml-auto">
+                        <div class="tetx-right">
+                            <h5 class="text-muted m-b-0">11</h5>
+                            <span class="text-muted font-16">Jan</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="d-flex no-block card-body border-top">
+              
+                    <div>
+                        <a href="#" class="m-b-0 font-medium" style="text-decoration: none;">Maruti is a Responsive Admin theme</a>
+                        <span class="text-muted">But already everything was solved. It will ...</span>
+                    </div>
+                    <div class="ml-auto">
+                        <div class="tetx-right">
+                            <h5 class="text-muted m-b-0">19</h5>
+                            <span class="text-muted font-16">Jan</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="d-flex no-block card-body border-top">
+                    
+                    <div>
+                        <a href="#" class="m-b-0 font-medium p-0" style="text-decoration: none;">Envato approved Maruti Admin template</a>
+                        <span class="text-muted">i am very happy to approved by TF</span>
+                    </div>
+                    <div class="ml-auto">
+                        <div class="tetx-right">
+                            <h5 class="text-muted m-b-0">20</h5>
+                            <span class="text-muted font-16">Jan</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="d-flex no-block card-body border-top">
+                    
+                    <div>
+                        <a href="#" class="m-b-0 font-medium p-0" style="text-decoration: none;"> I am alwayse here if you have any question</a>
+                        <span class="text-muted">we glad that you choose our template</span>
+                    </div>
+                    <div class="ml-auto">
+                        <div class="tetx-right">
+                            <h5 class="text-muted m-b-0">15</h5>
+                            <span class="text-muted font-16">Jan</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="card">
+         
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" data-bs-target="#home" href="#home" role="tab"><span class="hidden-sm-up"></span> <span class="hidden-xs-down">Tab1</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" data-bs-target="#profile" href="#profile" role="tab"><span class="hidden-sm-up"></span> <span class="hidden-xs-down">Tab2</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" data-bs-target="#messages" href="#messages" role="tab"><span class="hidden-sm-up"></span> <span class="hidden-xs-down">Tab3</span></a> </li>
+            </ul>
+          
+            <div class="tab-content tabcontent-border">
+                <div class="tab-pane active" id="home" role="tabpanel">
+                    <div class="p-20">
+                        <p>And is full of waffle to It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment..</p>
+                        <img src="4.jpg" class="img-fluid">
+                    </div>
+                </div>
+                <div class="tab-pane  p-20" id="profile" role="tabpanel">
+                    <div class="p-20">
+                        <img src="5.jpg" class="img-fluid">
+                        <p class="m-t-10">And is full of waffle to It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment..</p>
+                    </div>
+                </div>
+                <div class="tab-pane p-20" id="messages" role="tabpanel">
+                    <div class="p-20">
+                        <p>And is full of waffle to It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment..</p>
+                        <img src="1-old.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+</div>
+</div>
+
+<footer class="footer text-center">
+    All Rights Reserved by Matrix-admin. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>.
+</footer>
+
+</body>
+</html>
